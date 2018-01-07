@@ -12,7 +12,6 @@ class SpiderMain(object):
 
     def craw(self, root_url):
         count = 1
-        m = int(input('输入要爬取的相关词条信息数量：'))
         self.urls.add_new_url(root_url)
         while self.urls.has_new_url():
             try:
@@ -36,8 +35,9 @@ class SpiderMain(object):
 
 
 if __name__ == '__main__':
-    start = time.time()
     root_url = str(input('输入要爬取的百度百科词条链接：'))
+    m = int(input('输入要爬取的相关词条信息数量：'))
+    start = time.time()
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
     end = time.time()
