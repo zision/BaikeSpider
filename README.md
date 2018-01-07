@@ -5,6 +5,6 @@
 * 基于Python3.6
 ## spider_mainST
 * 单线程版本，主要依靠自带的urllib库
-## spider_mainST
+## spider_mainMT
 * 用threading, Queue库实现了多线程
 #### 使用pyinstaller打包了可执行文件(.exe)
