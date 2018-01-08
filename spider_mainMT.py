@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 import threading, queue
 import html_parser, html_outputer, html_downloader
 import time

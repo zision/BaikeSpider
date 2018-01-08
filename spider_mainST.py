@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
 import url_manager, html_downloader, html_parser, html_outputer
 import time
 import webbrowser
